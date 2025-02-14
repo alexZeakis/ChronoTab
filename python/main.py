@@ -92,7 +92,6 @@ def run_predictions(df, timestamp_col, corr_cols, date_range, no_predictions,
     
     models = {'TableGPT2': ('tablegpt/TableGPT2-7B', None, None),
               'Llama3.1': ('llama3.1:latest', "http://localhost:11434/v1", "ollama"),
-              #'Llama3.1': ('llama-3.1-8b-instant', "https://api.groq.com/openai/v1", "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"),
               'Qwen2.5': ('qwen2.5:32b', "http://localhost:11434/v1", "ollama")
             }
     
