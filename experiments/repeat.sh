@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datasets=("Gas" "Electricity" "Weather")
+datasets=("Gas" "Electricity" "Weather" "ILI")
 args=(1 5 10)
 
 for dataset in "${datasets[@]}"; do

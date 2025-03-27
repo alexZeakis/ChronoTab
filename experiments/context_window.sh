@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datasets=("Gas" "Electricity" "Weather")
+datasets=("Gas" "Electricity" "Weather" "ILI")
 args=(5 10 20)
 
 for dataset in "${datasets[@]}"; do
@@ -15,6 +15,6 @@ for dataset in "${datasets[@]}"; do
         --timestamp "aware" \
         --domain "agnostic" \
         --data_dir "../data/clean/" \
-        --out_file "../logs/repeat/${dataset}_logs.jsonl"
+        --out_file "../logs/context/${dataset}_logs.jsonl"
     done
 done

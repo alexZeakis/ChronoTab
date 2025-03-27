@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datasets=("Gas" "Electricity" "Weather")
+datasets=("Gas" "Electricity" "Weather" "ILI")
 args=("agnostic" "aware")
 
 for dataset in "${datasets[@]}"; do
